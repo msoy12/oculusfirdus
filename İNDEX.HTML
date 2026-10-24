@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="tr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oculus Viridis | Resmî Uygulama Ekosistemi & İndirme Portalı</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#0B0C10] text-white font-sans antialiased selection:bg-[#00FF87] selection:text-black">
+
+    <!-- Navbar -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-[#0B0C10]/80 backdrop-blur-md border-b border-white/10">
+        <div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-[#00FF87] to-[#60EFFF] flex items-center justify-center font-black text-black text-lg shadow-lg">
+                    OV
+                </div>
+                <span class="text-xl font-extrabold tracking-tight">Oculus Viridis</span>
+            </div>
+            <nav class="hidden md:flex space-x-8 text-sm font-medium text-gray-300">
+                <a href="#store" class="hover:text-[#00FF87] transition">Mağaza Vitrini</a>
+                <a href="#updates" class="hover:text-[#00FF87] transition">Güncellemeler (v3.2)</a>
+                <a href="#developer" class="hover:text-[#00FF87] transition">Geliştirici Konsolu</a>
+            </nav>
+            <a href="#store" class="bg-[#00FF87] hover:bg-[#00cc6a] text-black px-5 py-2 rounded-full text-sm font-extrabold shadow-md transition">
+                APK İndir
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Bölümü -->
+    <section class="pt-36 pb-20 px-6 text-center relative overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-b from-[#00FF87]/10 via-transparent to-transparent pointer-events-none"></div>
+        <div class="max-w-4xl mx-auto relative z-10">
+            <span class="inline-block bg-white/5 border border-white/10 text-[#00FF87] text-xs font-bold px-4 py-1.5 rounded-full mb-6 tracking-wide uppercase">
+                🚀 v3.2 Kararlı Sürüm Yayında
+            </span>
+            <h1 class="text-5xl md:text-7xl font-black tracking-tight mb-6 leading-tight">
+                Geleceğin Dijital Mağazası <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#00FF87] to-[#60EFFF]">Oculus Store</span>
+            </h1>
+            <p class="text-gray-400 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
+                SlotKap Pro, Futbolland Hub ve bağımsız geliştiricilerin en iyi projelerini tek merkezden keşfet, yükle ve anında çalıştır.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4">
+                <a href="#store" class="w-full sm:w-auto bg-[#00FF87] hover:bg-[#00cc6a] text-black font-extrabold px-8 py-4 rounded-2xl shadow-xl transition flex items-center justify-center space-x-2">
+                    <span>📥 Oculus Store v3.2 APK İndir</span>
+                </a>
+                <a href="#updates" class="w-full sm:w-auto bg-white/5 hover:bg-white/10 border border-white/10 text-white font-bold px-8 py-4 rounded-2xl transition flex items-center justify-center">
+                    Güncelleme Notları
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Güncelleme / Upgrade Banner -->
+    <section id="updates" class="py-12 px-6 max-w-5xl mx-auto">
+        <div class="bg-gradient-to-r from-[#12141C] to-[#1a1d2d] border border-[#00FF87]/30 rounded-3xl p-8 shadow-2xl">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+                <div>
+                    <span class="text-xs font-bold text-[#00FF87] uppercase tracking-wider">Son Yükseltme (Upgrade)</span>
+                    <h3 class="text-2xl font-black mt-1 mb-2">Oculus Viridis v3.2 Güncellemesi</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        • Geliştirici konsolu üzerinden canlı oyun yayınlama desteği eklendi.<br>
+                        • Parantez ve bellek optimizasyonları ile %50 daha hızlı açılış süresi.<br>
+                        • Yeni şeffaf cam efektli hibrit arayüz ve akıllı AI asistan geliştirmeleri.
+                    </p>
+                </div>
+                <button onclick="alert('Oculus Store v3.2 ana paket indiriliyor!')" class="bg-[#00FF87] hover:bg-[#00cc6a] text-black font-extrabold px-6 py-3 rounded-xl text-sm transition shrink-0 shadow-lg">
+                    Yeniliği İndir
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mağaza Vitrini -->
+    <section id="store" class="py-16 px-6 max-w-7xl mx-auto">
+        <div class="flex justify-between items-end mb-12">
+            <div>
+                <h2 class="text-3xl font-black tracking-tight mb-2">Öne Çıkan Projeler</h2>
+                <p class="text-gray-400 text-sm">Topluluğun en çok indirdiği ve test ettiği kararlı yapımlar.</p>
+            </div>
+            <span class="text-xs font-bold text-[#00FF87] bg-[#00FF87]/10 px-3 py-1 rounded-full border border-[#00FF87]/20">120 FPS Optimize</span>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Kart 1 -->
+            <div class="bg-[#12141C] border border-white/10 rounded-3xl p-6 hover:border-[#00FF87]/50 transition shadow-xl group">
+                <div class="w-16 h-16 rounded-2xl bg-[#00FF87]/10 flex items-center justify-center text-[#00FF87] font-black text-2xl mb-4 group-hover:scale-105 transition border border-[#00FF87]/20">
+                    SK
+                </div>
+                <h3 class="text-xl font-bold mb-1">SlotKap Pro</h3>
+                <p class="text-xs text-gray-400 mb-4">Spor • v2.5 • 24 MB • ⭐ 4.9</p>
+                <p class="text-gray-300 text-sm mb-6 leading-relaxed">Halı saha rezervasyonları, takım kurma ve saniyesinde canlı skor takip sistemi.</p>
+                <button onclick="alert('SlotKap Pro v2.5 APK dosyası indiriliyor!')" class="w-full bg-[#00FF87]/10 hover:bg-[#00FF87] text-[#00FF87] hover:text-black font-bold py-3 rounded-xl transition text-sm border border-[#00FF87]/30">
+                    APK İndir
+                </button>
+            </div>
+
+            <!-- Kart 2 -->
+            <div class="bg-[#12141C] border border-white/10 rounded-3xl p-6 hover:border-[#00FF87]/50 transition shadow-xl group">
+                <div class="w-16 h-16 rounded-2xl bg-[#60EFFF]/10 flex items-center justify-center text-[#60EFFF] font-black text-2xl mb-4 group-hover:scale-105 transition border border-[#60EFFF]/20">
+                    FH
+                </div>
+                <h3 class="text-xl font-bold mb-1">Futbolland Hub</h3>
+                <p class="text-xs text-gray-400 mb-4">Spor • v1.8 • 19 MB • ⭐ 4.7</p>
+                <p class="text-gray-300 text-sm mb-6 leading-relaxed">Süper Lig ve Avrupa ligleri anlık veri akışı, transfer analiz ve istatistik merkezi.</p>
+                <button onclick="alert('Futbolland Hub v1.8 APK dosyası indiriliyor!')" class="w-full bg-white/5 hover:bg-[#60EFFF] hover:text-black text-white font-bold py-3 rounded-xl transition text-sm border border-white/10">
+                    APK İndir
+                </button>
+            </div>
+
+            <!-- Kart 3 -->
+            <div class="bg-[#12141C] border border-white/10 rounded-3xl p-6 hover:border-[#00FF87]/50 transition shadow-xl group">
+                <div class="w-16 h-16 rounded-2xl bg-purple-500/10 flex items-center justify-center text-purple-400 font-black text-2xl mb-4 group-hover:scale-105 transition border border-purple-500/20">
+                    CE
+                </div>
+                <h3 class="text-xl font-bold mb-1">Cyber Energy 2026</h3>
+                <p class="text-xs text-gray-400 mb-4">Oyunlar • v3.0 • 95 MB • ⭐ 4.8</p>
+                <p class="text-gray-300 text-sm mb-6 leading-relaxed">Mobil platformlar için sıfırdan optimize edilmiş, cyberpunk temalı açık dünya aksiyon demosu.</p>
+                <button onclick="alert('Cyber Energy 2026 v3.0 APK dosyası indiriliyor!')" class="w-full bg-white/5 hover:bg-purple-500 hover:text-white text-white font-bold py-3 rounded-xl transition text-sm border border-white/10">
+                    APK İndir
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-white/10 py-12 text-center text-gray-500 text-sm bg-[#07080B]">
+        <p>&copy; 2026 Oculus Viridis Ekosistemi. Tüm hakları saklıdır. Bağımsız Mobil Dağıtım Platformu.</p>
+    </footer>
+
+</body>
+</html>
