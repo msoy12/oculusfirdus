@@ -1,0 +1,13 @@
+{
+  "background_color": "#ffffff",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Oculus Firdus",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "Oculus Firdus",
+  "start_url": "/",
+  "theme_color": "#0b0f19",
+  "description": "apk ve  slot cup hup",
+  "id": "Oculus Firdus"
+}
